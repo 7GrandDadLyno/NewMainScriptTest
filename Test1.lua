@@ -1,15 +1,15 @@
 local VLib = loadstring(game:HttpGet("https://pastebin.com/raw/Mb49kKTP"))()
 
 
-		MAINTTL = "Lyno Private X KyHub" 
+		MAINTTL = "Lyno Private Universe UI" 
 
-local win = VLib:Window("THREE PIECE", Color3.fromRGB(196, 40, 28))
+local win = VLib:Window("1st Universe UI", Color3.fromRGB(196, 40, 28))
 
 local ss1 = win:Tab("HOW TO USE")
 local ss = win:Tab("MAIN")
 local sss = win:Tab("MISC")
 local cred = win:Tab("CREDITS")
-
+local ez = win:Tab("Scripts")
 ss1:Button("Destroy Gui",function()
 game.CoreGui["Library"]:Destroy()
 end)
@@ -158,7 +158,9 @@ while skillsZ do wait()
         end)
      end
 end)
-
+ez:Label("Script Will Always Update !")
+ez:Button("Start Lynoing (Bedwars)"),function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 cred:Button("More Scripts ",function()
 setclipboard("github.com/7GrandDadLyno")
 end) 
@@ -166,4 +168,4 @@ cred:Button("Start Vaping",function()
 setclipboard("https://raw.githubusercontent.com/7GrandDadLyno/mainScriptForPrivate/main/mainByLynoConfigs.txt.lua")
 end) 
 
-cred:Label("MADE BY ")
+cred:Label("MADE BY 7GrandDadLyno")
